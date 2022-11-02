@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul{
+    background-color:black;
+    list-style-type:none;
+    overflow: hidden;
+}
+li{
+    float:left;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    padding:14px 16px;
+    text-decoration:none;
+    text-align:center;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color:red;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropcont{
+     position:absolute;
+     background-color:white;
+     width:150px;
+     display: none;
+}
+.dropcont a{
+    color:black;
+    display: block;
+    text-align: left;
+    border:1px solid gray;
+}
+.dropdown:hover .dropcont{
+    display: block;
+}
